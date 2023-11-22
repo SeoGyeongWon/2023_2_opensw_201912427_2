@@ -14,11 +14,7 @@
 수업 자료에 있었던 채널메시지 보내기
 
 import telegram
-token = "5684154475:AAE-FTYN5_A_tkFxLh5xZ1gkipHt1TWnKD0"
-# Bot: K2022_2_bot
-# Token: 5684154475:AAE-FTYN5_A_tkFxLh5xZ1gkipHt1TWnKD0
-# chat_id: 5359510705
-# channel : K2022_2_test
+token = ""
 bot = telegram.Bot(token = token)
 public_chat_name = '@K2022_2_test'
 id_channel = bot.sendMessage(chat_id=public_chat_name, 
